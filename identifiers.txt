@@ -1,0 +1,26 @@
+// Program to demonstrate Identifiers in Java
+public class IdentifiersDemo {
+
+    public static void main(String[] args) {
+        
+        System.out.println("---- Demonstration of Identifiers in Java ----\n");
+
+        // Valid Identifier Examples
+        int $number = 20; 
+        System.out.println("Valid Identifier [$number] = " + $number);
+
+        String studentName = "Aniket"; 
+        System.out.println("Valid Identifier [studentName] = " + studentName);
+
+        int _age = 21; 
+        System.out.println("Valid Identifier [_age] = " + _age);
+
+        double marks2025 = 92.5; 
+        System.out.println("Valid Identifier [marks2025] = " + marks2025);
+
+        boolean isPassed = true; 
+        System.out.println("Valid Identifier [isPassed] = " + isPassed);
+
+        System.out.println("\n---- End of Program ----");
+    }
+}
